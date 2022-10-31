@@ -1,13 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_allaudio_off",
-  "spriteId": {
-    "name": "Screen_Shot_2022_10_12_at_5_07_34_PM",
-    "path": "sprites/Screen_Shot_2022_10_12_at_5_07_34_PM/Screen_Shot_2022_10_12_at_5_07_34_PM.yy",
-  },
+  "name": "obj_tile",
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,13 +21,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":4,"eventType":6,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game_Options",
-    "path": "folders/Objects/Menu Objects/Game_Options.yy",
+    "name": "Tileset_objects",
+    "path": "folders/Objects/Tileset_objects.yy",
   },
 }

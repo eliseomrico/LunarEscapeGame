@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_allaudio_off",
+  "name": "obj_hard",
   "spriteId": {
-    "name": "Screen_Shot_2022_10_12_at_5_07_34_PM",
-    "path": "sprites/Screen_Shot_2022_10_12_at_5_07_34_PM/Screen_Shot_2022_10_12_at_5_07_34_PM.yy",
+    "name": "spr_hard",
+    "path": "sprites/spr_hard/spr_hard.yy",
   },
   "solid": false,
   "visible": false,
@@ -25,12 +25,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":4,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game_Options",
-    "path": "folders/Objects/Menu Objects/Game_Options.yy",
+    "name": "Select_Difficulty",
+    "path": "folders/Objects/Menu Objects/Select_Difficulty.yy",
   },
 }

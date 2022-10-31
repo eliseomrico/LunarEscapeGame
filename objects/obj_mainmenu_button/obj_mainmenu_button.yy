@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Main Menu Objects",
-    "path": "folders/Objects/Main Menu Objects.yy",
+    "name": "Game_Options",
+    "path": "folders/Objects/Menu Objects/Game_Options.yy",
   },
 }
