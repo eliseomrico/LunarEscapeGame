@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-characterMoveSpeed = 3;
-jumpIdx = 0;
+
+justRun = true;
+speed = 6;

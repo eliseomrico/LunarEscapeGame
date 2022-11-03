@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-characterMoveSpeed = 3;
-jumpIdx = 0;
+
+//score += 100;
+instance_destroy();
+
+with(other){
+	instance_destroy();
+}
