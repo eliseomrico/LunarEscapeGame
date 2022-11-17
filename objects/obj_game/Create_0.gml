@@ -2,4 +2,7 @@
 // You can write your code in this editor
 
 
-instance_destroy();
+difficulty = 1;
+player_health = 100;
+score = 0;
+lives = 3;

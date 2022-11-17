@@ -53,6 +53,7 @@ if (!right && !left){
 
 // Collision Checking
 
+
 if(place_meeting(x+hspeed,y,obj_solid)){
 	hspeed = 0;
 }

@@ -2,4 +2,10 @@
 // You can write your code in this editor
 
 
-instance_destroy();
+
+if (health - 1 > 0){
+	health -= 1;
+	speed = -6;
+}else{
+	instance_destroy();	
+}

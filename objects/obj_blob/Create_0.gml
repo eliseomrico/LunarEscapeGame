@@ -2,5 +2,7 @@
 // You can write your code in this editor
 
 
-justRun = true;
-speed = 6;
+blob_vision_range = 400;
+health = 2;
+speed = 2;
+gravity = 0.15;
