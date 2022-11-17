@@ -3,8 +3,8 @@
 
 
 
-if (health - 1 > 0){
-	health -= 1;
+if (blob_health - 1 > 0){
+	blob_health -= 1;
 	speed = -6;
 }else{
 	instance_destroy();

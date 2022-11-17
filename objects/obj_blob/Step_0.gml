@@ -12,6 +12,10 @@ else{
 }
 
 
+if(place_meeting(x+hspeed,y,obj_solid)){
+	hspeed = 0;
+}
+
 
 // AI PORTION BEGINS HERE
 
@@ -20,3 +24,4 @@ if(point_distance(x,y,obj_player.x,obj_player.y) < blob_vision_range){
 } else{
 	speed = 0;
 }
+
