@@ -10,31 +10,40 @@ var up = keyboard_check_pressed(vk_up);
 var space = keyboard_check_pressed(vk_space);
 
 
-// Right Movement
-if (right){
-	hspeed = characterMoveSpeed;
-	if(jumpIdx != 1){
-	image_xscale = 1;
+
+if (injured){
+	 hspeed *= kb_friction;
+	 if(abs(hspeed) < 1){
+		injured = false;
+	 }
+}
+else{
+		// Right Movement
+	if (right){
+		hspeed = characterMoveSpeed;
+		if(jumpIdx != 1){
+		image_xscale = 1;
+		}
+	}
+
+	// Left Movement
+	if (left){
+		hspeed = -characterMoveSpeed;
+		if(jumpIdx != 1){
+		image_xscale = -1;
+		}
+	}
+
+	// Jump
+	if (up){
+		if (jumpIdx == 0 && place_meeting(x,y+vspeed+1,obj_solid)){
+			vspeed = -characterMoveSpeed*1.8;
+			jumpIdx = 1;
+		}
+
 	}
 }
 
-// Left Movement
-if (left){
-	hspeed = -characterMoveSpeed;
-	if(jumpIdx != 1){
-	image_xscale = -1;
-	}
-}
-
-
-// Jump
-if (up){
-	if (jumpIdx == 0 && place_meeting(x,y+vspeed+1,obj_solid)){
-		vspeed = -characterMoveSpeed*1.8;
-		jumpIdx = 1;
-	}
-
-}
 
 // Shoot
 if (space){
@@ -47,6 +56,8 @@ if (space){
 }
 
 
+
+
 if (!right && !left){
 	hspeed = 0;
 }
@@ -57,6 +68,13 @@ if (!right && !left){
 if(place_meeting(x+hspeed,y,obj_solid)){
 	hspeed = 0;
 }
+
+if(not injured and place_meeting(x,y,obj_blob)){
+	injured = true;
+	hspeed = -10
+}
+
+
 
 if(place_meeting(x,y+vspeed+1,obj_solid)){
 	vspeed = 0;
