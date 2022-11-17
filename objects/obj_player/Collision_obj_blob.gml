@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (obj_player.player_health - 10 > 0){
-	obj_player.player_health -= 10;
+	obj_player.player_health -= 1;
 }else{
 	if obj_game.player_lives-1 > 0{
 		

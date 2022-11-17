@@ -37,7 +37,7 @@ else{
 	// Jump
 	if (up){
 		if (jumpIdx == 0 && place_meeting(x,y+vspeed+1,obj_solid)){
-			vspeed = -characterMoveSpeed*1.8;
+			vspeed = -characterMoveSpeed*1.5;
 			jumpIdx = 1;
 		}
 
@@ -69,7 +69,7 @@ if(place_meeting(x+hspeed,y,obj_solid)){
 	hspeed = 0;
 }
 
-if(not injured and place_meeting(x,y,obj_blob)){
+if(not injured and place_meeting(x,y,obj_blob)and not place_meeting(x+15,y,obj_solid)and not place_meeting(x-15,y,obj_solid)){
 	injured = true;
 	if(image_xscale == -1){
 		hspeed = 15

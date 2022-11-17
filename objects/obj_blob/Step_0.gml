@@ -1,33 +1,44 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Blob Ground and Solid Object Collision Detection. Applies Gravity
-if(place_meeting(x,y+vspeed+1,obj_solid)){
-	vspeed = 0;
+
+// Get player's X Value
+// See if x plus or minus depending on direction is obj_solid
+// if yes stop
+// if not move
+
+/*
+if (place_meeting(x,y+blob_speed,obj_solid)){
 	gravity = 0;
-	jumpIdx = 0;
 }
 else{
-	gravity = 0.15;
+	gravity = 0.15;	
 }
+*/
 
-
-if(place_meeting(x+speed,y,obj_solid)){
-	speed = 0;
-}
-
-
-
-// AI PORTION BEGINS HERE
-
-if(point_distance(x,y,obj_player.x,y) < blob_vision_range){
-	if (image_xscale==1)
+if ((obj_player.x - x) > 0){
+	
+	// Player is to the right of blob
+	if(place_meeting(x+blob_speed+1,y,obj_solid))
+    {
+		blob_speed = 0;
+    }
+	else
 	{
-	move_towards_point(obj_player.x, y, speed);
-	}else{
-		move_towards_point(obj_player.x, y, -speed);
+		blob_speed = 1.5;
 	}
 } else{
-	hspeed = 0;
+	if(place_meeting(x-blob_speed-1,y,obj_solid))
+    {
+		blob_speed = 0;
+    }
+	else
+	{
+		blob_speed = 1.5;
+	}
+	
 }
 
+if (point_distance(x,y,obj_player.x,obj_player.y) < 200){
+	move_towards_point(obj_player.x,y,blob_speed);	
+}
