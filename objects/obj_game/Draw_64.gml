@@ -4,8 +4,8 @@
 
 if(room == rm_level1 ){
 		draw_text(x,y,"Score: "+string(score));
-		draw_text(x,(y+20),"Lives: "+string(lives));
-		draw_text(x,(y+40),"Player Health: "+string(player_health));
+		draw_text(x,(y+20),"Lives: "+string(player_lives));
+		draw_text(x,(y+40),"Player Health: "+string(obj_player.player_health));
 }
 
 

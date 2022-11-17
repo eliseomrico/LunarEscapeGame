@@ -3,5 +3,5 @@
 
 blob_health = 2
 blob_vision_range = 400;
-speed = 1;
-gravity = 0.15;
+hspeed = 1;
+gravity = 0;

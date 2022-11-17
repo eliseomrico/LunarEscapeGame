@@ -12,16 +12,22 @@ else{
 }
 
 
-if(place_meeting(x+hspeed,y,obj_solid)){
-	hspeed = 0;
+if(place_meeting(x+speed,y,obj_solid)){
+	speed = 0;
 }
+
 
 
 // AI PORTION BEGINS HERE
 
-if(point_distance(x,y,obj_player.x,obj_player.y) < blob_vision_range){
-	move_towards_point(obj_player.x, y, 1);
+if(point_distance(x,y,obj_player.x,y) < blob_vision_range){
+	if (image_xscale==1)
+	{
+	move_towards_point(obj_player.x, y, speed);
+	}else{
+		move_towards_point(obj_player.x, y, -speed);
+	}
 } else{
-	speed = 0;
+	hspeed = 0;
 }
 

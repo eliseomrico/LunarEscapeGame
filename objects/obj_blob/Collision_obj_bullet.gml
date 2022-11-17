@@ -5,7 +5,7 @@
 
 if (blob_health - 1 > 0){
 	blob_health -= 1;
-	speed = -6;
+	speed = -2;
 }else{
 	instance_destroy();
 	score += 100;

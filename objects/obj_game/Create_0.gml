@@ -5,4 +5,4 @@
 difficulty = 1;
 player_health = 100;
 score = 0;
-lives = 3;
+player_lives = 3;

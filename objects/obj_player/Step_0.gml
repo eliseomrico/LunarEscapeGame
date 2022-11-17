@@ -71,9 +71,12 @@ if(place_meeting(x+hspeed,y,obj_solid)){
 
 if(not injured and place_meeting(x,y,obj_blob)){
 	injured = true;
-	hspeed = -10
+	if(image_xscale == -1){
+		hspeed = 15
+	}else{
+		hspeed = -15;	
+	}
 }
-
 
 
 if(place_meeting(x,y+vspeed+1,obj_solid)){
