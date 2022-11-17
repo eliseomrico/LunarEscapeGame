@@ -30,7 +30,7 @@ if (left){
 // Jump
 if (up){
 	if (jumpIdx == 0 && place_meeting(x,y+vspeed+1,obj_solid)){
-		vspeed = -characterMoveSpeed*1.5;
+		vspeed = -characterMoveSpeed*1.8;
 		jumpIdx = 1;
 	}
 

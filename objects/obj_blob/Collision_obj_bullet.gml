@@ -7,5 +7,6 @@ if (health - 1 > 0){
 	health -= 1;
 	speed = -6;
 }else{
-	instance_destroy();	
+	instance_destroy();
+	score += 100;
 }
