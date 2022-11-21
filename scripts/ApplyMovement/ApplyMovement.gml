@@ -5,8 +5,14 @@ function ApplyMovement(){
 	var left  = keyboard_check(vk_left);
 	var right = keyboard_check(vk_right);
 	var jump  = keyboard_check_pressed(vk_up);
+	var run   = keyboard_check(vk_shift);
 	var player_movement_direction = left - right;
-
+	
+	
+	// Apply Run Movement if Appliciable
+	if(run){
+		player_hspeed = 4;
+	}
 
 	// Apply Linear Movement
 	switch(player_movement_direction){
