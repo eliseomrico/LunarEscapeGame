@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "MoveLeft",
+  "name": "Blob_ApplyMovement",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Actions",
-    "path": "folders/Scripts/Player Scripts/Actions.yy",
+    "name": "Blob Scripts",
+    "path": "folders/Scripts/Blob Scripts.yy",
   },
 }

@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "ApplyMovement",
+  "name": "Blob_MoveRight",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Actions",
+    "path": "folders/Scripts/Blob Scripts/Actions.yy",
   },
 }

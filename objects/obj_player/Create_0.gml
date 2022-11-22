@@ -24,7 +24,7 @@ player_vspeed = 2;
 gravity_value = 0.1;
 
 // Intialize Jump Speed and Jump Count
-player_jump_speed = -5;
+player_jump_speed = -4.7;
 player_jump_count = 0;
 
 
@@ -33,8 +33,7 @@ kb_friction = 0.9;
 
 
 // Initialize Player Lives and Health
-player_lives = 3;
-player_health = 100;
+player_health = 1000;
 
 
 //Injured Variable
@@ -44,4 +43,4 @@ injured = false;
 /* ======================= Obj Player Graphic Variables ======================= */
 
 bbox_left_right_placement = 17;
-bbox_bottom_placement = 24;
+bbox_bottom_placement = 23;

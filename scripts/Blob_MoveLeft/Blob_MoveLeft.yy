@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "ApplyGroundCollisionCheck",
+  "name": "Blob_MoveLeft",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "CollisionChecks",
-    "path": "folders/Scripts/CollisionChecks.yy",
+    "name": "Actions",
+    "path": "folders/Scripts/Blob Scripts/Actions.yy",
   },
 }
