@@ -5,11 +5,13 @@
 draw_sprite_stretched(spr_hud,0,x,y,800,128);;
 
 
+/*
 if(room == rm_level2 ){
 		draw_text(x,y,"Score: "+string(score));
 		draw_text(x,(y+20),"Lives: "+string(player_lives));
 		draw_text(x,(y+40),"Player Health: "+string(obj_player.player_health));
 }
+*/
 
 
 if (player_lives > 0){
@@ -31,5 +33,6 @@ if (player_lives > 0){
 			draw_text(healthbar_x+55,healthbar_y-5,string(obj_player.player_health)+"/"+string(obj_player.player_health_max)+" HP");
 			draw_text(staminabar_x+55,staminabar_y-5,string(obj_player.player_stamina)+"/"+string(obj_player.player_stamina_max)+" ST");
 			draw_text(healthbar_x+50,healthbar_y+50,string(score));
+			draw_text(healthbar_x+180,healthbar_y+50,string(player_lives));
 	}
 }
