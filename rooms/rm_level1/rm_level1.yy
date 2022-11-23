@@ -38,7 +38,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_1CE8EAA7","path":"rooms/rm_level1/rm_level1.yy",},
-    {"name":"inst_2DF4D974","path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"inst_66B89661","path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"inst_5BF00F02","path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"inst_2742F4D5","path":"rooms/rm_level1/rm_level1.yy",},
@@ -48,6 +47,7 @@
     {"name":"inst_4A09F804","path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"inst_747B3C1B","path":"rooms/rm_level1/rm_level1.yy",},
     {"name":"inst_1661BCA3","path":"rooms/rm_level1/rm_level1.yy",},
+    {"name":"inst_2DF4D974","path":"rooms/rm_level1/rm_level1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

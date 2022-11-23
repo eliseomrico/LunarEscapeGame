@@ -1,10 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-level1_required_score = 300;
 
 
-difficulty = 1;
+
 player_health = 100;
 player_lives = 3;
 

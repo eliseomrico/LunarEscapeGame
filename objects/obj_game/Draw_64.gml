@@ -28,11 +28,11 @@ if (player_lives > 0){
 	draw_sprite(spr_staminabar_border,0,staminabar_x,staminabar_y);
 
 
-	if(room == rm_level1 ){
 
-			draw_text(healthbar_x+55,healthbar_y-5,string(obj_player.player_health)+"/"+string(obj_player.player_health_max)+" HP");
-			draw_text(staminabar_x+55,staminabar_y-5,string(obj_player.player_stamina)+"/"+string(obj_player.player_stamina_max)+" ST");
-			draw_text(healthbar_x+50,healthbar_y+50,string(score));
-			draw_text(healthbar_x+180,healthbar_y+50,string(player_lives));
-	}
+
+	draw_text(healthbar_x+55,healthbar_y-5,string(obj_player.player_health)+"/"+string(obj_player.player_health_max)+" HP");
+	draw_text(staminabar_x+55,staminabar_y-5,string(obj_player.player_stamina)+"/"+string(obj_player.player_stamina_max)+" ST");
+	draw_text(healthbar_x+50,healthbar_y+50,string(score));
+   	draw_text(healthbar_x+180,healthbar_y+50,string(player_lives));
+
 }
