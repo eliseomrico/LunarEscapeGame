@@ -10,7 +10,8 @@ vspeed = 0;
 gravity = 2;
 
 
-walker_health = 5;
+walker_health = 10;
+walker_value = 100;
 walker_vision_range = 400;
 walker_speed = 1;
 walker_bbox_leftright_placement = 37;

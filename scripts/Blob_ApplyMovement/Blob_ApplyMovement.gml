@@ -12,7 +12,7 @@ function Blob_ApplyMovement(){
 			}
 		}else if(player_to_the_right){
 			if(not place_meeting(x+blob_speed,y,obj_solid)&& (not place_meeting(x+blob_speed,y,obj_blob))){
-				x+=blob_speed;	
+				x += blob_speed;	
 			}
 		}
 		else{

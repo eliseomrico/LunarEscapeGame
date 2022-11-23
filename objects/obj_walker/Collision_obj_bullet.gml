@@ -7,5 +7,5 @@ if (walker_health - 1 > 0){
 	walker_speed = 1;
 }else{
 	instance_destroy();
-	score += 100;
+	score += walker_value;
 }

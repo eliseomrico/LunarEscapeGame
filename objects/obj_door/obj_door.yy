@@ -31,6 +31,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Level 1 Objects",
-    "path": "folders/Objects/Level 1 Objects.yy",
+    "path": "folders/Objects/Level Objects/Level 1 Objects.yy",
   },
 }

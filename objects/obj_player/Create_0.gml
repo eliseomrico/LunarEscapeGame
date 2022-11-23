@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 
-
 // Initialized Player H and V Speeds
 hspeed = 0;
 vspeed = 0;
+speed = 1;
 
 
 // Initialize Gravity
@@ -33,11 +33,16 @@ kb_friction = 0.9;
 
 
 // Initialize Player Lives and Health
-player_health = 1000;
+player_health = 100;
+player_health_max = 100;
+
+// Initialize Player Stamina
+player_stamina = 100
+player_stamina_max = 100;
 
 
-//Injured Variable
-injured = false;
+// Stamina Variable
+stamina_depleted = false;
 
 
 /* ======================= Obj Player Graphic Variables ======================= */

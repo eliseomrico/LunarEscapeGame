@@ -4,8 +4,9 @@
 
 if (blob_health - 1 > 0){
 	blob_health -= 1;
-	blob_speed = 4;
+	
+	blob_speed = blob_sprint_speed;
 }else{
 	instance_destroy();
-	score += 100;
+	score += blob_value;
 }

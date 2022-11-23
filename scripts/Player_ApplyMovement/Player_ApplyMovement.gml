@@ -8,10 +8,17 @@ function ApplyMovement(){
 	var run   = keyboard_check(vk_shift);
 	var player_movement_direction = left - right;
 	
-	
 	// Apply Run Movement if Appliciable
-	if(run){
-		player_hspeed = 4;
+	if(run && (left || right) &&(!stamina_depleted)){
+		player_hspeed = 4.5;
+		player_stamina -= 0.5;
+		if(player_stamina == 0){stamina_depleted = true}
+	}else{
+		player_hspeed = 2;
+		if(player_stamina < player_stamina_max){
+			player_stamina+=0.2;
+			if(stamina_depleted ==true && player_stamina > 25){stamina_depleted = false;}
+		}
 	}
 
 	// Apply Linear Movement
