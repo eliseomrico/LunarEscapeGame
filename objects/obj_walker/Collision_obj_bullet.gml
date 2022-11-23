@@ -2,11 +2,10 @@
 // You can write your code in this editor
 
 
-
 if (walker_health - 1 > 0){
 	walker_health -= 1;
-	speed = walker_speed;
+	walker_speed = 1;
 }else{
 	instance_destroy();
-	score += 200;
+	score += 100;
 }
