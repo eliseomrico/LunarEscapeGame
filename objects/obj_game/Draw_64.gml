@@ -30,6 +30,6 @@ if (player_lives > 0){
 
 			draw_text(healthbar_x+55,healthbar_y-5,string(obj_player.player_health)+"/"+string(obj_player.player_health_max)+" HP");
 			draw_text(staminabar_x+55,staminabar_y-5,string(obj_player.player_stamina)+"/"+string(obj_player.player_stamina_max)+" ST");
-
+			draw_text(healthbar_x+50,healthbar_y+50,string(score));
 	}
 }
