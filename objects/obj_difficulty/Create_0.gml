@@ -7,8 +7,8 @@ difficulty = 0;
 switch (difficulty){
 	case 1: // Easy
 		level1_required_score = 300;
-		level2_required_score = 100;
-		level3_required_score = 200;
+		level2_required_score = 300;
+		level3_required_score = 500;
 		level4_required_score = 400;
 		break;
 	case 2: // Medium

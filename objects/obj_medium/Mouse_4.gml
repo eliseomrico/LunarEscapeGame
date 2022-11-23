@@ -4,4 +4,4 @@
 
 PlayMenuOptionSelectMusic();
 audio_stop_sound(snd_menu_music)
-room_goto(rm_level1);
+room_goto(rm_game_over_win);

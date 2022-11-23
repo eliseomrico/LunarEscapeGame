@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Game Over Sprites",
-    "path": "folders/Sprites/Game Over Sprites.yy",
+    "name": "Game Over (You Lose)) Sprites",
+    "path": "folders/Sprites/Game Over (You Lose)) Sprites.yy",
   },
 }

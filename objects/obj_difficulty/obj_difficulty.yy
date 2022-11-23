@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Background Objects",
+    "path": "folders/Objects/Background Objects.yy",
   },
 }
