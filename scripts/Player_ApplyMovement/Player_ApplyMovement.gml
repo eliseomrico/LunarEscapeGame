@@ -12,7 +12,7 @@ function ApplyMovement(){
 	if(run && (left || right) &&(!stamina_depleted)){
 		player_hspeed = 4.5;
 		player_stamina -= 0.5;
-		if(player_stamina == 0){stamina_depleted = true}
+		if(player_stamina <= 0){stamina_depleted = true}
 	}else{
 		player_hspeed = 2;
 		if(player_stamina < player_stamina_max){

@@ -23,5 +23,5 @@ staminabar_x = x;
 staminabar_y = y+30;
 
 
-
+// Score
 score = 0;
