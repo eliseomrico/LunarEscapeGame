@@ -1,2 +1,3 @@
 PlayMenuOptionSelectMusic();
-room_goto(rm_select_difficulty);
+
+room_goto(rm_story_screen);
